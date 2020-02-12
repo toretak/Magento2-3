@@ -4,8 +4,8 @@ services:
     image: rafaelcgstz/magento2
     # build: .
     ports:
-      - "80:80" # web
-      - "9001:9000" # xdebug
+      - "8082:80" # web
+      #- "9001:9000" # xdebug
       # - "35729:35729" # live reload
     volumes:
       - ./src:/var/www/html
